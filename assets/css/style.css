@@ -68,4 +68,36 @@ header nav .button{
 
 header nav .button:hover{
     filter: brightness(1.05);
+    color: white;
 }
+
+.column{
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left{
+    width: 25%;
+    font-size: 100px;
+    padding-left: 75px;
+    padding-top: 55px;
+    font-weight: bold;
+    color:#FFBD4A;
+    background-color:gray;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.right{
+    width: 75%;
+    font-size: larger;
+    padding-top: 25px;
+    color: #4A4645;
+    background-color: lightgray;
+    font-weight: bolder;
+   
+}
+
+
+
+
