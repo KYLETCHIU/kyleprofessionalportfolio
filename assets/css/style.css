@@ -71,32 +71,52 @@ header nav .button:hover{
     color: white;
 }
 
+.title{
+    max-width: auto;
+    
+}
+
 .column{
     float: left;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 4;
 }
 
 .left{
-    width: 25%;
-    font-size: 100px;
-    padding-left: 75px;
-    padding-top: 55px;
-    font-weight: bold;
-    color:#FFBD4A;
-    background-color:gray;
-    font-family: 'Bebas Neue', cursive;
-}
-
-.right{
     width: 75%;
-    font-size: larger;
+    font-size: medium;
     padding-top: 25px;
     color: #4A4645;
     background-color: lightgray;
     font-weight: bolder;
-   
 }
+
+.right{
+    width: 25%;
+    font-size: 125px;
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 40px;
+    font-weight: bold;
+    color: #FFBD4A;
+    background-color: gray;
+    font-family: 'Bebas Neue', cursive;
+  
+}
+
+@media screen and (max-height : 600px)
+{
+  .left
+  {
+    font-size: smaller;
+  }
+}
+
 
 
 
