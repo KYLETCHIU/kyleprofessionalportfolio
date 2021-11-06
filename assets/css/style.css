@@ -76,6 +76,10 @@ header nav .button:hover{
     
 }
 
+.portimg{
+    width: 100%;
+}
+
 .column{
     float: left;
     padding: 10px;
@@ -84,6 +88,7 @@ header nav .button:hover{
     flex-wrap: wrap;
     justify-content: center;
     flex: 4;
+    margin: 10px;
 }
 
 .left{
@@ -93,31 +98,70 @@ header nav .button:hover{
     color: #4A4645;
     background-color: lightgray;
     font-weight: bolder;
+    border-color: #4A4445;
+    border-width: 5px;
+    border-style: solid;
 }
 
 .right{
     width: 25%;
     font-size: 125px;
     padding-left: 40px;
-    padding-top: 35px;
+    padding-top: 75px;
     padding-bottom: 35px;
     padding-right: 40px;
     font-weight: bold;
     color: #FFBD4A;
     background-color: gray;
-    font-family: 'Bebas Neue', cursive;
-  
-}
+    font-family: 'Bebas Neue', cursive;}
 
-@media screen and (max-height : 600px)
-{
-  .left
-  {
-    font-size: smaller;
-  }
-}
+    .work-column{
+        float: left;
+        padding: 10px;
+        height: 500px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 4;
+    }
+    
+    .work-left{
+        width: 25%;
+        font-size: medium;
+        padding-top: 10px;
+        color: #FFBD4A;
+        background-color: gray;
+        font-weight: bolder;
+        margin: 10px;
+       
 
+    }
+    
+    .work-right{
+        width: 75%;
+        font-size: 125px;
+        padding-left: 40px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-right: 40px;
+        font-weight: bold;
+        color: #FFBD4A;
+        font-family: 'Bebas Neue', cursive;
+    }
 
+    .box{
+        margin: 5px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #4A4645;
+        background-color: lightgray;
+        justify-content: center;
+    }
 
+    .boxtitle{
+        justify-content: center;
+    }
 
-
+    .psubtitle{
+    font-size: 50px;
+    }
