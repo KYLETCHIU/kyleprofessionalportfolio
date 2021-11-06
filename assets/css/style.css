@@ -1,7 +1,12 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
 header{
-    width: 100vw;
+    width: 100%;
     height: 180px;
-    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    
     font-family: 'Chakra Petch', sans-serif;;
 }
 
@@ -71,6 +76,12 @@ header nav .button:hover{
     color: white;
 }
 
+.main{
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .title{
     max-width: auto;
     
@@ -82,8 +93,12 @@ header nav .button:hover{
 
 .column{
     float: left;
-    padding: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
     height: 300px; 
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,6 +116,7 @@ header nav .button:hover{
     border-color: #4A4445;
     border-width: 5px;
     border-style: solid;
+    overflow-x: scroll;
 }
 
 .right{
@@ -116,37 +132,57 @@ header nav .button:hover{
     font-family: 'Bebas Neue', cursive;}
 
     .work-column{
-        float: left;
-        padding: 10px;
-        height: 500px; 
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex: 4;
+    float: left;
+    height: 500px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 4;
+    width: 100%;
+    margin: 20px;
     }
     
     .work-left{
-        width: 25%;
-        font-size: medium;
-        padding-top: 10px;
-        color: #FFBD4A;
-        background-color: gray;
-        font-weight: bolder;
-        margin: 10px;
-       
-
+    width: 25%;
+    height: 1109px;
+    font-size: 125px;
+    padding-left: 60px;
+    padding-top: 35%;
+    padding-bottom: 35px;
+    padding-right: 40px;
+    font-weight: bold;
+    color: #FFBD4A;
+    background-color: gray;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 0px;
+    display: flex;
+    flex: content;
     }
+
     
     .work-right{
         width: 75%;
         font-size: 125px;
-        padding-left: 40px;
-        padding-top: 35px;
+        padding-left: 20px;
+        padding-top: 0px;
         padding-bottom: 35px;
         padding-right: 40px;
         font-weight: bold;
         color: #FFBD4A;
         font-family: 'Bebas Neue', cursive;
+    }
+
+    .boxone{
+        margin-top: 0px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #4A4645;
+        background-color: lightgray;
+        justify-content: center;
+        width: 100%;
     }
 
     .box{
@@ -156,12 +192,33 @@ header nav .button:hover{
         border-color: #4A4645;
         background-color: lightgray;
         justify-content: center;
+        width: 100%;
     }
 
     .boxtitle{
         justify-content: center;
+        padding-left: 10px;
+        padding-top: 10px;
     }
 
     .psubtitle{
     font-size: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    }
+
+    .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    font-size: larger;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #4A4645;
+    color: #FFBD4A;
+    text-align: center;
     }
