@@ -225,8 +225,13 @@ header nav .button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://st3.depositphotos.com/9468312/12553/v/950/depositphotos_125531154-stock-illustration-drone-logo-concept-design.jpg");
+    background-image: url("/Users/kchiu/bootcamp/homework/kyleprofessionalportfolio/assets/images/gitHomiestest.png");
     background-size:100% 100%;
+}
+
+button{
+    background: transparent;
+    border-style: none;
 }
 
 .password{
